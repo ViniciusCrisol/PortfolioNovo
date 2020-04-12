@@ -15,6 +15,7 @@ background: #f1f1f1;
 }
 
 body, input, button {
+  color: #2e3159;
   font:14px 'Baloo Paaji 2', sans-serif;
 }
 

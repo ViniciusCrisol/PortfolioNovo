@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { MdEmail } from 'react-icons/md';
-import { IoLogoWhatsapp } from 'react-icons/io';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaWhatsapp } from 'react-icons/fa';
 
 import TextHeader from '../../components/TextHeader';
 
@@ -14,11 +13,11 @@ export default function Contact() {
       <Container>
         <h2>Informações:</h2>
         <p>
-          <MdEmail />
+          <AiOutlineMail />
           vinicius.crisol@etec.sp.gov.br
         </p>
         <p>
-          <IoLogoWhatsapp />
+          <FaWhatsapp />
           (16) 99104-3028
         </p>
       </Container>

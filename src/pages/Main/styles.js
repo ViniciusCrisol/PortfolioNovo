@@ -6,13 +6,11 @@ export const Container = styled.div`
   text-align: center;
 
   h2 {
-    color: #2e3159;
     font-weight: bold;
     font-size: 24px;
   }
 
   p {
-    color: #2e3159;
     max-width: 460px;
     margin: 12px auto;
     font-size: 18px;
@@ -20,7 +18,6 @@ export const Container = styled.div`
   }
 
   > a {
-    color: #2e3159;
     font-size: 20px;
     text-decoration: none;
     padding-bottom: 1px;
