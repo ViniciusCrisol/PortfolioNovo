@@ -12,6 +12,7 @@ export const Container = styled.div`
   }
 
   p {
+    color: #2e3159;
     max-width: 460px;
     margin: 12px auto;
     font-size: 18px;
@@ -42,6 +43,7 @@ export const Container = styled.div`
       text-decoration: none;
       font-size: 18px;
       color: #6064a8;
+      transition: 200ms;
     }
 
     svg {
