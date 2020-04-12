@@ -37,6 +37,8 @@ export const Item = styled.div`
       justify-content: center;
 
       > h3 {
+        display: flex;
+        align-items: center;
         margin: 0 2px;
       }
     }

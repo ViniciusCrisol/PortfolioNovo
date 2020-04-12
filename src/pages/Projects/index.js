@@ -13,16 +13,16 @@ export default function Projects() {
       <Container>
         <PorjectContainer
           LinkDirection="/"
-          Icon1={<FaReact size={28} color="#42C4EC" />}
-          Icon2={<FaNodeJs size={28} color="#689F63" />}
+          Icon1={<FaReact size={26} color="#42C4EC" />}
+          Icon2={<FaNodeJs size={26} color="#689F63" />}
           image={ThumbBTH}
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
         />
         <PorjectContainer
           LinkDirection="/"
-          Icon1={<FaReact size={28} color="#42C4EC" />}
-          Icon2={<FaNodeJs size={28} color="#689F63" />}
+          Icon1={<FaReact size={26} color="#42C4EC" />}
+          Icon2={<FaNodeJs size={26} color="#689F63" />}
           image={ThumbBTH}
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
