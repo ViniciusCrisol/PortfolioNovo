@@ -14,7 +14,6 @@ export const Item = styled.div`
   }
 
   img {
-    height: 100%;
     width: 100%;
     background: #eee;
   }

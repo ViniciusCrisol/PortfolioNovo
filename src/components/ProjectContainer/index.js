@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Item } from './styles';
 
 export default function ProjectContainer({
-  image,
+  Image,
   Title,
   Description,
   Icon1,
@@ -14,7 +14,7 @@ export default function ProjectContainer({
   return (
     <Item>
       <Link to={LinkDirection}>
-        <img src={image} alt="ThumItem" />
+        <img src={Image} alt="ThumItem" />
         <footer>
           <div>
             <h3>{Title}</h3>
