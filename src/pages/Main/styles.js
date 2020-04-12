@@ -22,6 +22,7 @@ export const Container = styled.div`
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 2px solid;
+    color: #6064a8;
 
     &:hover {
       color: ${darken(0.2, '#f2bf5e')};

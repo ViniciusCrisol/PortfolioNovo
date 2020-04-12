@@ -14,11 +14,13 @@ export const Item = styled.div`
   }
 
   img {
-    background: #eee;
+    height: 100%;
     width: 100%;
+    background: #eee;
   }
   footer {
     padding: 6px;
+    padding-top: 0;
     width: 100%;
 
     div {
@@ -40,7 +42,7 @@ export const Item = styled.div`
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 26px;
     }
 
     p {
