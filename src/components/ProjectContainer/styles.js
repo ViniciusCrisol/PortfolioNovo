@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Item = styled.div`
-  width: 90s;
+  width: 90%;
   margin: 4px;
   max-width: 340px;
   height: auto;
   background-color: white;
-  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.45);
+  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.35);
 
   a {
     text-decoration: none;
@@ -50,6 +50,7 @@ export const Item = styled.div`
     p {
       font-size: 16px;
       line-height: 18px;
+      max-width: 260px;
     }
   }
   &:hover {

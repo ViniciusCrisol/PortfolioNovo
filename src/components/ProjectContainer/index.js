@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Item } from './styles';
 
-export default function PorjectContainer({
+export default function ProjectContainer({
   image,
   Title,
   Description,
