@@ -1,15 +1,17 @@
 import React from 'react';
 
-import { ImgsProj, ImgCel } from './styles';
+import { ImgsProj, ImagsProjCell } from './styles';
 
 import Pages from '../../../components/Pages/index';
 import Footer from '../../../components/Footer/index';
+import ImagesProject from '../../../components/ImagesProject/index';
+import ImagesProjectCel from '../../../components/ImagesProjectCel/index';
 
 import Img1 from '../../../assets/imagesInPages/BTH/CadastrarCaso.png';
 import Img2 from '../../../assets/imagesInPages/BTH/Cadastro.png';
 import Img3 from '../../../assets/imagesInPages/BTH/CasoCadastrado.png';
-import Img4 from '../../../assets/imagesInPages/BTH/CasoCel.png';
-import Img5 from '../../../assets/imagesInPages/BTH/TelaInicial.png';
+import Img4 from '../../../assets/imagesInPages/BTH/TelaInicial.png';
+import Img5 from '../../../assets/imagesInPages/BTH/CasoCel.png';
 import Img6 from '../../../assets/imagesInPages/BTH/TelaInicialCel.png';
 
 export default function BTH() {
@@ -21,15 +23,15 @@ export default function BTH() {
         RepositoryLink="https://github.com/ViniciusCrisol/BeTheHero"
       />
       <ImgsProj>
-        <img src={Img1} alt=" " />
-        <img src={Img2} alt=" " />
-        <img src={Img3} alt=" " />
-        <img src={Img5} alt=" " />
-        <ImgCel>
-          <img src={Img4} alt=" " />
-          <img src={Img6} alt=" " />
-        </ImgCel>
+        <ImagesProject Image={Img1} />
+        <ImagesProject Image={Img2} />
+        <ImagesProject Image={Img3} />
+        <ImagesProject Image={Img4} />
       </ImgsProj>
+      <ImagsProjCell>
+        <ImagesProjectCel Image={Img5} />
+        <ImagesProjectCel Image={Img6} />
+      </ImagsProjCell>
       <Footer />
     </>
   );
