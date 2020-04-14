@@ -5,6 +5,7 @@ import { Container, DescProj, ImgsProj, DescProjText } from './styles';
 export default function Pages({
   ProjectName,
   ProjectDescription,
+  ProjectTechs,
   RepositoryLink,
   Image1,
   Image2,
@@ -26,6 +27,8 @@ export default function Pages({
         <DescProjText>
           <h1>Descrição do projeto</h1>
           <p>{ProjectDescription}</p>
+          <h1>Descrição técnica</h1>
+          <p>{ProjectTechs}</p>
         </DescProjText>
       </DescProj>
     </Container>

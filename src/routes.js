@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 
 import BTH from './pages/ProjectsPages/BTH';
+import AIRCNC from './pages/ProjectsPages/AIRCNC';
 
 export default function Routes() {
   return (
@@ -15,6 +16,7 @@ export default function Routes() {
       <Route path="/contato" exact component={Contact} />
 
       <Route path="/projetos/BTH" exact component={BTH} />
+      <Route path="/projetos/AIRCNC" exact component={AIRCNC} />
     </Switch>
   );
 }
