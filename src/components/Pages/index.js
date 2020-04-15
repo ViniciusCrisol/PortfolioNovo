@@ -7,6 +7,7 @@ export default function Pages({
   ProjectDescription,
   ProjectTechs,
   RepositoryLink,
+  disableDesc,
   Image1,
   Image2,
   Image3,
@@ -27,7 +28,7 @@ export default function Pages({
         <DescProjText>
           <h1>Descrição do projeto</h1>
           <p>{ProjectDescription}</p>
-          <h1>Descrição técnica</h1>
+          <h1>{disableDesc ? '' : 'Descrição técnica'}</h1>
           <p>{ProjectTechs}</p>
         </DescProjText>
       </DescProj>

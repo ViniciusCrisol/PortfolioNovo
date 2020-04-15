@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ImgsProj, ImagsProjCell } from './styles';
+import { ImgsProj, ImagsProjCell } from '../../../styles/stylesPage';
 
 import Pages from '../../../components/Pages/index';
 import Footer from '../../../components/Footer/index';
@@ -35,9 +35,9 @@ export default function AIRCNC() {
       <ImagsProjCell>
         <ImagesProjectCel Image={Img5} />
         <ImagesProjectCel Image={Img6} />
-        <ImagesProjectCel Image={Img5} />
-        <ImagesProjectCel Image={Img6} />
-        <ImagesProjectCel Image={Img5} />
+        <ImagesProjectCel Image={Img7} />
+        <ImagesProjectCel Image={Img8} />
+        <ImagesProjectCel Image={Img9} />
       </ImagsProjCell>
       <Footer />
     </>

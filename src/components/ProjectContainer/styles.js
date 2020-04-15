@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Item = styled.div`
   width: 90%;
-  margin: 4px;
+  margin: 8px 6px;
   max-width: 340px;
   height: auto;
   background-color: white;

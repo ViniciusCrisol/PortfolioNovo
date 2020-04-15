@@ -15,6 +15,7 @@ import ThumbLR from '../../assets/images/ThumbLR.png';
 import ThumbPH from '../../assets/images/ThumbPH.png';
 import ThumbTEMPLATE from '../../assets/images/ThumbTEMPLATE.png';
 import ThumbSKLB from '../../assets/images/ThumbSKLB.png';
+import ThumbLRGITMOBILE from '../../assets/images/ThumbLRGITMOBILE.png';
 
 export default function Projects() {
   const reactIcon = <FaReact size={26} color="#42C4EC" />;
@@ -42,54 +43,62 @@ export default function Projects() {
           Description="Projeto desenvolvido durante a semana OmniStack 09."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/SKYLAB"
           Icon1={reactIcon}
           Image={ThumbSKLB}
           Title="Clone SKYLAB"
           Description="Projeto desenvolvido para estuar ReactJs."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/NUBANK"
           Icon1={reactIcon}
           Image={ThumbNUBANK}
           Title="Clone interface NUBANK"
           Description="Projeto desenvolvido para estuar React-Native."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/ACADEMIA"
           Icon1={htmlIcon}
           Image={ThumbACAD}
           Title="Controle Academia"
           Description="Projeto desenvolvido durante o curso launchBase."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/AIRBNB"
           Icon1={htmlIcon}
           Image={ThumbAIRBNB}
           Title="Clone Airbnb"
           Description="Projeto desenvolvido para estudar Html."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/PH"
           Icon1={reactIcon}
           Icon2={nodeIcon}
           Image={ThumbPH}
-          Title="Clone SKYLAB"
+          Title="Clone Product Hunt"
           Description="Projeto desenvolvido durante o curso básico RocketSeat."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/TEMPLATEAPP"
+          Icon1={reactIcon}
+          Image={ThumbTEMPLATE}
+          Title="App Template"
+          Description="Projeto desenvolvido para estuar React-Native."
+        />
+
+        <ProjectContainer
+          LinkDirection="projetos/LRGIT"
           Icon1={reactIcon}
           Image={ThumbLR}
           Title="Listar Repositórios"
           Description="Projeto desenvolvido durante o curso GoStack."
         />
         <ProjectContainer
-          LinkDirection="/"
+          LinkDirection="projetos/LRGITMOBILE"
           Icon1={reactIcon}
-          Image={ThumbTEMPLATE}
-          Title="App Template"
-          Description="Projeto desenvolvido para estuar React-Native."
+          Image={ThumbLRGITMOBILE}
+          Title="Repositórios Favoritos"
+          Description="Projeto desenvolvido durante o curso GoStack."
         />
       </Container>
     </>

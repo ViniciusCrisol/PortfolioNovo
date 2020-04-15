@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ImgsProj, ImagsProjCell } from './styles';
+import { ImgsProj, ImagsProjCell } from '../../../styles/stylesPage';
 
 import Pages from '../../../components/Pages/index';
 import Footer from '../../../components/Footer/index';
