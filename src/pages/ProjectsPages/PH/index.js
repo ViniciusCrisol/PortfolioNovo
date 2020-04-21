@@ -6,7 +6,7 @@ import Pages from '../../../components/Pages/index';
 import Footer from '../../../components/Footer/index';
 import ImagesProject from '../../../components/ImagesProject/index';
 
-import Img1 from '../../../assets/imagesInPages/PH/Produto.png';
+import Img1 from '../../../assets/imagesInPages/PH/Produtos.png';
 import Img2 from '../../../assets/imagesInPages/PH/Inserir-Dados.png';
 import Img3 from '../../../assets/imagesInPages/PH/Produto.png';
 
