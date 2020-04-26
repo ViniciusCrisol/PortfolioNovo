@@ -15,6 +15,7 @@ import PH from './pages/ProjectsPages/PH';
 import TEMPLATEAPP from './pages/ProjectsPages/TEMPLATEAPP';
 import LRGIT from './pages/ProjectsPages/LRGIT';
 import LRGITMOBILE from './pages/ProjectsPages/LRGITMOBILE';
+import SPOTFY from './pages/ProjectsPages/SPOTFY';
 
 export default function Routes() {
   return (
@@ -33,6 +34,7 @@ export default function Routes() {
       <Route path="/projetos/TEMPLATEAPP" exact component={TEMPLATEAPP} />
       <Route path="/projetos/LRGIT" exact component={LRGIT} />
       <Route path="/projetos/LRGITMOBILE" exact component={LRGITMOBILE} />
+      <Route path="/projetos/SPOTFY" exact component={SPOTFY} />
     </Switch>
   );
 }

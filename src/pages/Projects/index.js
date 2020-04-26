@@ -16,6 +16,7 @@ import ThumbPH from '../../assets/images/ThumbPH.png';
 import ThumbTEMPLATE from '../../assets/images/ThumbTEMPLATE.png';
 import ThumbSKLB from '../../assets/images/ThumbSKLB.png';
 import ThumbLRGITMOBILE from '../../assets/images/ThumbLRGITMOBILE.png';
+import ThumbSPOTFY from '../../assets/images/ThumbSPOTFY.png';
 
 export default function Projects() {
   const reactIcon = <FaReact size={26} color="#42C4EC" />;
@@ -34,6 +35,7 @@ export default function Projects() {
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
         />
+
         <ProjectContainer
           LinkDirection="projetos/AIRCNC"
           Icon1={reactIcon}
@@ -42,13 +44,7 @@ export default function Projects() {
           Title="AIRCNC"
           Description="Projeto desenvolvido durante a semana OmniStack 09."
         />
-        <ProjectContainer
-          LinkDirection="projetos/SKYLAB"
-          Icon1={reactIcon}
-          Image={ThumbSKLB}
-          Title="Clone SKYLAB"
-          Description="Projeto desenvolvido para estuar ReactJs."
-        />
+
         <ProjectContainer
           LinkDirection="projetos/NUBANK"
           Icon1={reactIcon}
@@ -56,13 +52,7 @@ export default function Projects() {
           Title="Clone interface NUBANK"
           Description="Projeto desenvolvido para estuar React-Native."
         />
-        <ProjectContainer
-          LinkDirection="projetos/ACADEMIA"
-          Icon1={htmlIcon}
-          Image={ThumbACAD}
-          Title="Controle Academia"
-          Description="Projeto desenvolvido durante o curso launchBase."
-        />
+
         <ProjectContainer
           LinkDirection="projetos/AIRBNB"
           Icon1={htmlIcon}
@@ -70,14 +60,31 @@ export default function Projects() {
           Title="Clone Airbnb"
           Description="Projeto desenvolvido para estudar Html."
         />
+
         <ProjectContainer
-          LinkDirection="projetos/PH"
+          LinkDirection="projetos/SPOTFY"
           Icon1={reactIcon}
-          Icon2={nodeIcon}
-          Image={ThumbPH}
-          Title="Clone Product Hunt"
-          Description="Projeto desenvolvido durante o curso básico RocketSeat."
+          Image={ThumbSPOTFY}
+          Title="Clone Spotfy"
+          Description="Projeto desenvolvido para estudar ReactJs."
         />
+
+        <ProjectContainer
+          LinkDirection="projetos/ACADEMIA"
+          Icon1={htmlIcon}
+          Image={ThumbACAD}
+          Title="Controle Academia"
+          Description="Projeto desenvolvido durante o curso launchBase."
+        />
+
+        <ProjectContainer
+          LinkDirection="projetos/SKYLAB"
+          Icon1={reactIcon}
+          Image={ThumbSKLB}
+          Title="Clone SKYLAB"
+          Description="Projeto desenvolvido para estuar ReactJs."
+        />
+
         <ProjectContainer
           LinkDirection="projetos/TEMPLATEAPP"
           Icon1={reactIcon}
@@ -87,12 +94,22 @@ export default function Projects() {
         />
 
         <ProjectContainer
+          LinkDirection="projetos/PH"
+          Icon1={reactIcon}
+          Icon2={nodeIcon}
+          Image={ThumbPH}
+          Title="Clone Product Hunt"
+          Description="Projeto desenvolvido durante o curso básico RocketSeat."
+        />
+
+        <ProjectContainer
           LinkDirection="projetos/LRGIT"
           Icon1={reactIcon}
           Image={ThumbLR}
           Title="Listar Repositórios"
           Description="Projeto desenvolvido durante o curso GoStack."
         />
+
         <ProjectContainer
           LinkDirection="projetos/LRGITMOBILE"
           Icon1={reactIcon}

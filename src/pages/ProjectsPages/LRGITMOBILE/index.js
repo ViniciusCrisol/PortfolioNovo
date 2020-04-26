@@ -14,8 +14,8 @@ export default function LRGITMOBILE() {
     <>
       <Pages
         ProjectName="Respositórios com estrela"
-        ProjectDescription="O aplicativo foi desenvolvido durante o módulo 06 di cursi GoStack da RocketSeat, nele o usuário adiciona perfis do github e visualisa os repositórios marcados com estrela."
-        disableDesc={true}
+        ProjectDescription="O aplicativo foi desenvolvido durante o módulo 06 do curso GoStack da RocketSeat, nele o usuário adiciona perfis do github e visualisa os repositórios marcados com estrela."
+        disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/ListarRepositoriosMobile"
       />
       <ImagsProjCell>

@@ -15,7 +15,7 @@ export default function NUBANK() {
       <Pages
         ProjectName="Clone APP Nubank"
         ProjectDescription="O projeto foi desenvolvido com o objetivo de estudar animações em interface mobile nativa."
-        disableDesc={true}
+        disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/CloneInterfaceNubankMobile"
       />
       <ImagsProjCell>
