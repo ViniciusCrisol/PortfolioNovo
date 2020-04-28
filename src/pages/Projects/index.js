@@ -17,6 +17,7 @@ import ThumbTEMPLATE from '../../assets/images/ThumbTEMPLATE.png';
 import ThumbSKLB from '../../assets/images/ThumbSKLB.png';
 import ThumbLRGITMOBILE from '../../assets/images/ThumbLRGITMOBILE.png';
 import ThumbSPOTFY from '../../assets/images/ThumbSPOTFY.png';
+import ThumbCHURROS from '../../assets/images/ThumbCHURROS.png';
 
 export default function Projects() {
   const reactIcon = <FaReact size={26} color="#42C4EC" />;
@@ -34,6 +35,14 @@ export default function Projects() {
           Image={ThumbBTH}
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
+        />
+
+        <ProjectContainer
+          LinkDirection="projetos/CHURROS"
+          Icon1={htmlIcon}
+          Image={ThumbCHURROS}
+          Title="Site Churros"
+          Description="Projeto desenvolvido para trabalho de faculdade."
         />
 
         <ProjectContainer
