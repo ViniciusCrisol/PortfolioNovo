@@ -16,7 +16,7 @@ export default function TEMPLATEAPP() {
       <Pages
         ProjectName="Template APP"
         ProjectDescription="Template de um aplicativo. Desenvolvido com objetivo de estudar React-Native. Projeto realizado no dia 04/04/2020.Aplicação idealizada em React-Native, com auxílio do Expo-cli."
-        disableDesc={true}
+        disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/TemplateApp"
       />
       <ImagsProjCell>

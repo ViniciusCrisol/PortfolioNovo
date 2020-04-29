@@ -4,7 +4,7 @@ export const Item = styled.div`
   width: 90%;
   margin: 8px 6px;
   max-width: 340px;
-  height: auto;
+  height: 290px;
   background-color: white;
   box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.35);
 
@@ -14,7 +14,8 @@ export const Item = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 340px;
+    height: 192px;
     background: #eee;
   }
   footer {
