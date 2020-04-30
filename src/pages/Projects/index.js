@@ -71,7 +71,7 @@ export default function Projects() {
         />
 
         <ProjectContainer
-          LinkDirection="projetos/SPOTFY"
+          LinkDirection="projetos/SPOTIFY"
           Icon1={reactIcon}
           Image={ThumbSPOTFY}
           Title="Clone Spotfy"
@@ -91,7 +91,7 @@ export default function Projects() {
           Icon1={reactIcon}
           Image={ThumbSKLB}
           Title="Clone SKYLAB"
-          Description="Projeto desenvolvido para estuar ReactJs."
+          Description="Projeto desenvolvido para estudar ReactJs."
         />
 
         <ProjectContainer
@@ -99,7 +99,7 @@ export default function Projects() {
           Icon1={reactIcon}
           Image={ThumbTEMPLATE}
           Title="App Template"
-          Description="Projeto desenvolvido para estuar React-Native."
+          Description="Projeto desenvolvido para estudar React-Native."
         />
 
         <ProjectContainer
