@@ -6,18 +6,19 @@ import TextHeader from '../../components/TextHeader';
 
 import { Container } from './styles';
 
-import ThumbBTH from '../../assets/images/ThumbBTH.png';
-import ThumbAiRCNC from '../../assets/images/ThumbAIRCNC.png';
-import ThumbNUBANK from '../../assets/images/ThumbNUBANK.png';
-import ThumbACAD from '../../assets/images/ThumbACAD.png';
-import ThumbAIRBNB from '../../assets/images/ThumbAIRBNB.png';
-import ThumbLR from '../../assets/images/ThumbLR.png';
-import ThumbPH from '../../assets/images/ThumbPH.png';
-import ThumbTEMPLATE from '../../assets/images/ThumbTEMPLATE.png';
-import ThumbSKLB from '../../assets/images/ThumbSKLB.png';
-import ThumbLRGITMOBILE from '../../assets/images/ThumbLRGITMOBILE.png';
-import ThumbSPOTFY from '../../assets/images/ThumbSPOTFY.png';
-import ThumbCHURROS from '../../assets/images/ThumbCHURROS.png';
+import ThumbBTH from '../../thumbs/ThumbBTH.png';
+import ThumbAiRCNC from '../../thumbs/ThumbAIRCNC.png';
+import ThumbNUBANK from '../../thumbs/ThumbNUBANK.png';
+import ThumbACAD from '../../thumbs/ThumbACAD.png';
+import ThumbAIRBNB from '../../thumbs/ThumbAIRBNB.png';
+import ThumbLR from '../../thumbs/ThumbLR.png';
+import ThumbPH from '../../thumbs/ThumbPH.png';
+import ThumbTEMPLATE from '../../thumbs/ThumbTEMPLATE.png';
+import ThumbSKLB from '../../thumbs/ThumbSKLB.png';
+import ThumbLRGITMOBILE from '../../thumbs/ThumbLRGITMOBILE.png';
+import ThumbSPOTFY from '../../thumbs/ThumbSPOTIFY.png';
+import ThumbCHURROS from '../../thumbs/ThumbCHURROS.png';
+import ThumbPICPAY from '../../thumbs/ThumbPICPAY.png';
 
 export default function Projects() {
   const reactIcon = <FaReact size={26} color="#42C4EC" />;
@@ -46,6 +47,14 @@ export default function Projects() {
         />
 
         <ProjectContainer
+          LinkDirection="projetos/PICPAY"
+          Icon1={reactIcon}
+          Image={ThumbPICPAY}
+          Title="Clone interface PicPay"
+          Description="Projeto desenvolvido para estudar React-Native."
+        />
+
+        <ProjectContainer
           LinkDirection="projetos/AIRCNC"
           Icon1={reactIcon}
           Icon2={nodeIcon}
@@ -59,7 +68,7 @@ export default function Projects() {
           Icon1={reactIcon}
           Image={ThumbNUBANK}
           Title="Clone interface NUBANK"
-          Description="Projeto desenvolvido para estuar React-Native."
+          Description="Projeto desenvolvido para estudar React-Native."
         />
 
         <ProjectContainer
@@ -74,7 +83,7 @@ export default function Projects() {
           LinkDirection="projetos/SPOTIFY"
           Icon1={reactIcon}
           Image={ThumbSPOTFY}
-          Title="Clone Spotfy"
+          Title="Clone Spotify"
           Description="Projeto desenvolvido para estudar ReactJs."
         />
 

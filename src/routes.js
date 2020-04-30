@@ -5,18 +5,19 @@ import Main from './pages/Main';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 
-import BTH from './pages/ProjectsPages/BTH';
-import AIRCNC from './pages/ProjectsPages/AIRCNC';
-import SKYLAB from './pages/ProjectsPages/SKYLAB';
-import NUBANK from './pages/ProjectsPages/NUBANK';
-import ACADEMIA from './pages/ProjectsPages/ACADEMIA';
-import AIRBNB from './pages/ProjectsPages/AIRBNB';
-import PH from './pages/ProjectsPages/PH';
-import TEMPLATEAPP from './pages/ProjectsPages/TEMPLATEAPP';
-import LRGIT from './pages/ProjectsPages/LRGIT';
-import LRGITMOBILE from './pages/ProjectsPages/LRGITMOBILE';
-import SPOTFY from './pages/ProjectsPages/SPOTFY';
-import CHURROS from './pages/ProjectsPages/CHURROS';
+import BTH from './pages/ProjectsPages/beTheHero';
+import AIRCNC from './pages/ProjectsPages/aircnc';
+import SKYLAB from './pages/ProjectsPages/skylab';
+import NUBANK from './pages/ProjectsPages/nubank';
+import ACADEMIA from './pages/ProjectsPages/academia';
+import AIRBNB from './pages/ProjectsPages/airbnb';
+import PH from './pages/ProjectsPages/productHunt';
+import TEMPLATEAPP from './pages/ProjectsPages/templateApp';
+import LRGIT from './pages/ProjectsPages/listarRepositorios';
+import LRGITMOBILE from './pages/ProjectsPages/listarRepositoriosMobile';
+import SPOTIFY from './pages/ProjectsPages/spotify';
+import CHURROS from './pages/ProjectsPages/churros';
+import PICPAY from './pages/ProjectsPages/picpay';
 
 export default function Routes() {
   return (
@@ -35,8 +36,9 @@ export default function Routes() {
       <Route path="/projetos/TEMPLATEAPP" exact component={TEMPLATEAPP} />
       <Route path="/projetos/LRGIT" exact component={LRGIT} />
       <Route path="/projetos/LRGITMOBILE" exact component={LRGITMOBILE} />
-      <Route path="/projetos/SPOTFY" exact component={SPOTFY} />
+      <Route path="/projetos/SPOTIFY" exact component={SPOTIFY} />
       <Route path="/projetos/CHURROS" exact component={CHURROS} />
+      <Route path="/projetos/PICPAY" exact component={PICPAY} />
     </Switch>
   );
 }
