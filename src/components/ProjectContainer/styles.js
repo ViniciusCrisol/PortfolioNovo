@@ -14,9 +14,7 @@ export const Item = styled.div`
   }
 
   img {
-    width: 340px;
-    height: 192px;
-    background: #eee;
+    width: 100%;
   }
   footer {
     padding: 6px;
