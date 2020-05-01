@@ -13,7 +13,7 @@ import Img4 from '../../images/controleAcademia/NovoInstrutor.png';
 import Img5 from '../../images/controleAcademia/NovoAluno.png';
 import Img6 from '../../images/controleAcademia/VerAluno.png';
 
-export default function ACADEMIA() {
+export default function academia() {
   return (
     <>
       <Pages

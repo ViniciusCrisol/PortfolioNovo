@@ -11,7 +11,7 @@ import Img2 from '../../images/churros/2.png';
 import Img3 from '../../images/churros/3.png';
 import Img4 from '../../images/churros/4.png';
 
-export default function CHURROS() {
+export default function churros() {
   return (
     <>
       <Pages

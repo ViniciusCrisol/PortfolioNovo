@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import { Container, DescProj, ImgsProj, DescProjText } from './styles';
+import { Container, DescProj, DescProjText } from './styles';
 
 export default function Pages({
   ProjectName,
@@ -8,15 +9,6 @@ export default function Pages({
   ProjectTechs,
   RepositoryLink,
   disableDesc,
-  Image1,
-  Image2,
-  Image3,
-  Image4,
-  Image5,
-  Image6,
-  Image7,
-  Image8,
-  Image9,
 }) {
   return (
     <Container>
@@ -35,3 +27,11 @@ export default function Pages({
     </Container>
   );
 }
+
+Pages.propTypes = {
+  ProjectName: PropTypes.element.isRequired,
+  ProjectDescription: PropTypes.element.isRequired,
+  ProjectTechs: PropTypes.element.isRequired,
+  RepositoryLink: PropTypes.element.isRequired,
+  disableDesc: PropTypes.element.isRequired,
+};

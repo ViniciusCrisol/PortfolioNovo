@@ -1,22 +1,38 @@
 import styled from 'styled-components';
+import { darken } from 'polished';
+import { Link } from 'react-router-dom';
 
-export const Item = styled.div`
+export const Item = styled(Link)`
+  position: relative;
+
+  max-width: 380px;
   width: 90%;
-  margin: 8px 6px;
-  max-width: 340px;
   height: 290px;
-  background-color: white;
-  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.35);
+  margin: 8px 6px;
 
-  a {
-    text-decoration: none;
-    color: #2e3159;
-  }
+  background-color: ${(props) => props.color};
+  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.35);
+  color: #2e3159;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: left;
 
   img {
-    width: 100%;
+    margin-top: 14px;
+    height: 180px;
+    position: absolute;
+    right: 0;
+    bottom: 88px;
+    background: rgba(255, 255, 255, 0.6);
+    border-left: white solid 8px;
+    border-top: white solid 8px;
   }
+
   footer {
+    background: white;
+    bottom: 0;
+    position: absolute;
     padding: 6px;
     padding-top: 0;
     width: 100%;
@@ -52,7 +68,9 @@ export const Item = styled.div`
     }
   }
   &:hover {
-    background-color: #f1f1f1;
-    transition: 200ms;
+    footer {
+      transition: 200ms;
+      background: ${darken(0.04, 'white')};
+    }
   }
 `;

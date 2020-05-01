@@ -14,7 +14,7 @@ import Img4 from '../../images/beTheHero/TelaInicial.png';
 import Img5 from '../../images/beTheHero/CasoCel.png';
 import Img6 from '../../images/beTheHero/TelaInicialCel.png';
 
-export default function BTH() {
+export default function beTheHero() {
   return (
     <>
       <Pages

@@ -10,7 +10,7 @@ import Img1 from '../../images/productHunt/Produtos.png';
 import Img2 from '../../images/productHunt/Inserir-Dados.png';
 import Img3 from '../../images/productHunt/Produto.png';
 
-export default function PH() {
+export default function productHunt() {
   return (
     <>
       <Pages

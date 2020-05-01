@@ -9,7 +9,7 @@ import ImagesProjectCel from '../../components/ImagesProjectCel/index';
 import Img1 from '../../images/listarGitMobile/1.png';
 import Img2 from '../../images/listarGitMobile/2.png';
 
-export default function LRGITMOBILE() {
+export default function listarGitMobile() {
   return (
     <>
       <Pages

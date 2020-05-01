@@ -6,11 +6,11 @@ import Pages from '../../components/Pages/index';
 import Footer from '../../components/Footer/index';
 import ImagesProject from '../../components/ImagesProject/index';
 
-import Img1 from '../../images/skylab/Index.png';
+import Img1 from '../../images/skylab/Inicio.png';
 import Img2 from '../../images/skylab/Cadastro.png';
 import Img3 from '../../images/skylab/Login.png';
 
-export default function SKYLAB() {
+export default function skylab() {
   return (
     <>
       <Pages

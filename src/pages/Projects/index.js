@@ -6,19 +6,18 @@ import TextHeader from '../../components/TextHeader';
 
 import { Container } from './styles';
 
-import ThumbBTH from '../../thumbs/ThumbBTH.png';
-import ThumbAiRCNC from '../../thumbs/ThumbAIRCNC.png';
-import ThumbNUBANK from '../../thumbs/ThumbNUBANK.png';
-import ThumbACAD from '../../thumbs/ThumbACAD.png';
-import ThumbAIRBNB from '../../thumbs/ThumbAIRBNB.png';
-import ThumbLR from '../../thumbs/ThumbLR.png';
-import ThumbPH from '../../thumbs/ThumbPH.png';
-import ThumbTEMPLATE from '../../thumbs/ThumbTEMPLATE.png';
-import ThumbSKLB from '../../thumbs/ThumbSKLB.png';
-import ThumbLRGITMOBILE from '../../thumbs/ThumbLRGITMOBILE.png';
-import ThumbSPOTFY from '../../thumbs/ThumbSPOTIFY.png';
-import ThumbCHURROS from '../../thumbs/ThumbCHURROS.png';
-import ThumbPICPAY from '../../thumbs/ThumbPICPAY.png';
+import thumbBeTheHero from '../../images/beTheHero/TelaInicial.png';
+import thumbChurros from '../../images/churros/2.png';
+import thumbPicpay from '../../images/picpay/Thumb.png';
+import thumbAircnc from '../../images/aircnc/Inicio.png';
+import thumbNubank from '../../images/nubank/Thumb.png';
+import thumbAirbnb from '../../images/airbnb/2.png';
+import thumbSpotify from '../../images/spotify/1.png';
+import thumbPH from '../../images/productHunt/Produtos.png';
+import thumbSkylab from '../../images/skylab/Inicio.png';
+import thumbAcademia from '../../images/controleAcademia/NovoInstrutor.png';
+import thumbLGit from '../../images/listarGit/2.png';
+import thumbLGitMobile from '../../images/listarGitMobile/Thumb.png';
 
 export default function Projects() {
   const reactIcon = <FaReact size={26} color="#42C4EC" />;
@@ -30,108 +29,112 @@ export default function Projects() {
       <TextHeader FunctionText="Todos projetos possuem um link para seus respectivos repositórios." />
       <Container>
         <ProjectContainer
-          LinkDirection="projetos/BTH"
+          LinkDirection="projetos/beTheHero"
           Icon1={reactIcon}
           Icon2={nodeIcon}
-          Image={ThumbBTH}
+          Image={thumbBeTheHero}
+          bgColor="#5CE1E6"
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/CHURROS"
+          LinkDirection="projetos/churros"
           Icon1={htmlIcon}
-          Image={ThumbCHURROS}
+          Image={thumbChurros}
+          bgColor="#8C273A"
           Title="Site Churros"
           Description="Projeto desenvolvido para trabalho de faculdade."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/PICPAY"
+          LinkDirection="projetos/picpay"
           Icon1={reactIcon}
-          Image={ThumbPICPAY}
+          Image={thumbPicpay}
+          bgColor="#4DE888"
           Title="Clone interface PicPay"
           Description="Projeto desenvolvido para estudar React-Native."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/AIRCNC"
+          LinkDirection="projetos/aircnc"
           Icon1={reactIcon}
           Icon2={nodeIcon}
-          Image={ThumbAiRCNC}
+          Image={thumbAircnc}
+          bgColor="#F05A5B"
           Title="AIRCNC"
           Description="Projeto desenvolvido durante a semana OmniStack 09."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/NUBANK"
+          LinkDirection="projetos/nubank"
           Icon1={reactIcon}
-          Image={ThumbNUBANK}
+          Image={thumbNubank}
+          bgColor="#CB91D8"
           Title="Clone interface NUBANK"
           Description="Projeto desenvolvido para estudar React-Native."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/AIRBNB"
+          LinkDirection="projetos/airbnb"
           Icon1={htmlIcon}
-          Image={ThumbAIRBNB}
+          Image={thumbAirbnb}
+          bgColor="#F05A5B"
           Title="Clone Airbnb"
           Description="Projeto desenvolvido para estudar Html."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/SPOTIFY"
+          LinkDirection="projetos/spotify"
           Icon1={reactIcon}
-          Image={ThumbSPOTFY}
+          Image={thumbSpotify}
+          bgColor="#1DCF5E"
           Title="Clone Spotify"
           Description="Projeto desenvolvido para estudar ReactJs."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/ACADEMIA"
-          Icon1={htmlIcon}
-          Image={ThumbACAD}
-          Title="Controle Academia"
-          Description="Projeto desenvolvido durante o curso launchBase."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/SKYLAB"
-          Icon1={reactIcon}
-          Image={ThumbSKLB}
-          Title="Clone SKYLAB"
-          Description="Projeto desenvolvido para estudar ReactJs."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/TEMPLATEAPP"
-          Icon1={reactIcon}
-          Image={ThumbTEMPLATE}
-          Title="App Template"
-          Description="Projeto desenvolvido para estudar React-Native."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/PH"
+          LinkDirection="projetos/productHunt"
           Icon1={reactIcon}
           Icon2={nodeIcon}
-          Image={ThumbPH}
+          Image={thumbPH}
+          bgColor="#FF674C"
           Title="Clone Product Hunt"
           Description="Projeto desenvolvido durante o curso básico RocketSeat."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/LRGIT"
+          LinkDirection="projetos/skylab"
           Icon1={reactIcon}
-          Image={ThumbLR}
+          Image={thumbSkylab}
+          bgColor="#512978"
+          Title="Clone SKYLAB"
+          Description="Projeto desenvolvido para estudar ReactJs."
+        />
+
+        <ProjectContainer
+          LinkDirection="projetos/academia"
+          Icon1={htmlIcon}
+          Image={thumbAcademia}
+          bgColor="#4D369B"
+          Title="Controle Academia"
+          Description="Projeto desenvolvido durante o curso launchBase."
+        />
+
+        <ProjectContainer
+          LinkDirection="projetos/listarRepositorios"
+          Icon1={reactIcon}
+          Image={thumbLGit}
+          bgColor="#4D369B"
           Title="Listar Repositórios"
           Description="Projeto desenvolvido durante o curso GoStack."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/LRGITMOBILE"
+          LinkDirection="projetos/listarRepositoriosMobile"
           Icon1={reactIcon}
-          Image={ThumbLRGITMOBILE}
+          Image={thumbLGitMobile}
+          bgColor="#FF6447"
           Title="Repositórios Favoritos"
           Description="Projeto desenvolvido durante o curso GoStack."
         />

@@ -9,7 +9,7 @@ import ImagesProject from '../../components/ImagesProject/index';
 import Img1 from '../../images/listarGit/1.png';
 import Img2 from '../../images/listarGit/2.png';
 
-export default function LRGIT() {
+export default function listarGit() {
   return (
     <>
       <Pages

@@ -12,7 +12,7 @@ import Img3 from '../../images/picpay/3.jpg';
 import Img4 from '../../images/picpay/4.jpg';
 import Img5 from '../../images/picpay/5.jpg';
 
-export default function PICPAY() {
+export default function picpay() {
   return (
     <>
       <Pages

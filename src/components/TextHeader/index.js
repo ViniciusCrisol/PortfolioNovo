@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Container } from './styles';
 
@@ -10,3 +11,8 @@ export default function TextHeader({ NameText, FunctionText }) {
     </Container>
   );
 }
+
+TextHeader.propTypes = {
+  NameText: PropTypes.element.isRequired,
+  FunctionText: PropTypes.element.isRequired,
+};

@@ -9,7 +9,7 @@ import ImagesProjectCel from '../../components/ImagesProjectCel/index';
 import Img1 from '../../images/nubank/Inicio.jpg';
 import Img2 from '../../images/nubank/Menu.jpg';
 
-export default function NUBANK() {
+export default function nubank() {
   return (
     <>
       <Pages

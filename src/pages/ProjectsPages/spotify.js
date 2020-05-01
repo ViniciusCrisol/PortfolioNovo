@@ -12,7 +12,7 @@ import Img3 from '../../images/spotify/3.png';
 import Img4 from '../../images/spotify/4.png';
 import Img5 from '../../images/spotify/5.png';
 
-export default function LRGIT() {
+export default function spotify() {
   return (
     <>
       <Pages

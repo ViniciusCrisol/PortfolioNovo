@@ -17,7 +17,7 @@ import Img7 from '../../images/aircnc/data.png';
 import Img8 from '../../images/aircnc/Reserva-Solicitada.png';
 import Img9 from '../../images/aircnc/Aprova-o.png';
 
-export default function AIRCNC() {
+export default function aircnc() {
   return (
     <>
       <Pages

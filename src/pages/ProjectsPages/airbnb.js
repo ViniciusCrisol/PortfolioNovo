@@ -11,7 +11,7 @@ import Img2 from '../../images/airbnb/2.png';
 import Img3 from '../../images/airbnb/3.jpg';
 import Img4 from '../../images/airbnb/4.png';
 
-export default function AIRBNB() {
+export default function airbnb() {
   return (
     <>
       <Pages

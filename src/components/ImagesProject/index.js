@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Container } from './styles';
 
@@ -11,3 +12,7 @@ export default function ImagesProject({ Image }) {
     </Container>
   );
 }
+
+ImagesProject.propTypes = {
+  Image: PropTypes.element.isRequired,
+};
