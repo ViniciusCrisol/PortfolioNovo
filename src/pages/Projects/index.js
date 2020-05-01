@@ -20,9 +20,9 @@ import thumbLGit from '../../images/listarGit/2.png';
 import thumbLGitMobile from '../../images/listarGitMobile/Thumb.png';
 
 export default function Projects() {
-  const reactIcon = <FaReact size={26} color="#42C4EC" />;
-  const nodeIcon = <FaNodeJs size={26} color="#689F63" />;
-  const htmlIcon = <FaHtml5 size={26} color="#FFB843" />;
+  const reactIcon = <FaReact size={28} color="#42C4EC" />;
+  const nodeIcon = <FaNodeJs size={28} color="#689F63" />;
+  const htmlIcon = <FaHtml5 size={28} color="#FFB843" />;
 
   return (
     <>
@@ -33,7 +33,7 @@ export default function Projects() {
           Icon1={reactIcon}
           Icon2={nodeIcon}
           Image={thumbBeTheHero}
-          bgColor="#5CE1E6"
+          bgColor="#A11D3C"
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
         />
@@ -51,7 +51,7 @@ export default function Projects() {
           LinkDirection="projetos/picpay"
           Icon1={reactIcon}
           Image={thumbPicpay}
-          bgColor="#4DE888"
+          bgColor="#2ae871"
           Title="Clone interface PicPay"
           Description="Projeto desenvolvido para estudar React-Native."
         />
@@ -70,7 +70,7 @@ export default function Projects() {
           LinkDirection="projetos/nubank"
           Icon1={reactIcon}
           Image={thumbNubank}
-          bgColor="#CB91D8"
+          bgColor="#c248f0"
           Title="Clone interface NUBANK"
           Description="Projeto desenvolvido para estudar React-Native."
         />
@@ -88,7 +88,7 @@ export default function Projects() {
           LinkDirection="projetos/spotify"
           Icon1={reactIcon}
           Image={thumbSpotify}
-          bgColor="#1DCF5E"
+          bgColor="#2ae871"
           Title="Clone Spotify"
           Description="Projeto desenvolvido para estudar ReactJs."
         />
@@ -107,7 +107,7 @@ export default function Projects() {
           LinkDirection="projetos/skylab"
           Icon1={reactIcon}
           Image={thumbSkylab}
-          bgColor="#512978"
+          bgColor="#6C4FBB"
           Title="Clone SKYLAB"
           Description="Projeto desenvolvido para estudar ReactJs."
         />
@@ -116,7 +116,7 @@ export default function Projects() {
           LinkDirection="projetos/academia"
           Icon1={htmlIcon}
           Image={thumbAcademia}
-          bgColor="#4D369B"
+          bgColor="#6C4FBB"
           Title="Controle Academia"
           Description="Projeto desenvolvido durante o curso launchBase."
         />
@@ -125,7 +125,7 @@ export default function Projects() {
           LinkDirection="projetos/listarRepositorios"
           Icon1={reactIcon}
           Image={thumbLGit}
-          bgColor="#4D369B"
+          bgColor="#6C4FBB"
           Title="Listar Repositórios"
           Description="Projeto desenvolvido durante o curso GoStack."
         />

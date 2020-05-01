@@ -7,70 +7,74 @@ export const Item = styled(Link)`
 
   max-width: 380px;
   width: 90%;
-  height: 290px;
+  height: 120px;
   margin: 8px 6px;
+  padding: 12px;
+  border-radius: 12px;
 
-  background-color: ${(props) => props.color};
+  background: linear-gradient(
+    90deg,
+    rgba(43, 87, 117, 1) 0%,
+    rgba(78, 67, 118, 1) 100%
+  );
+
   box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.35);
-  color: #2e3159;
+  color: white;
   text-decoration: none;
 
-  display: flex;
-  justify-content: left;
-
-  img {
-    margin-top: 14px;
-    height: 180px;
-    position: absolute;
-    right: 0;
-    bottom: 88px;
-    background: rgba(255, 255, 255, 0.6);
-    border-left: white solid 8px;
-    border-top: white solid 8px;
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  footer {
-    background: white;
-    bottom: 0;
-    position: absolute;
-    padding: 6px;
-    padding-top: 0;
-    width: 100%;
-
-    div {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    span {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-
-      > h3 {
-        display: flex;
-        align-items: center;
-        margin: 0 2px;
-      }
-    }
-
-    h3 {
-      font-size: 26px;
-    }
-
-    p {
-      font-size: 16px;
-      line-height: 18px;
-      max-width: 260px;
-    }
+  h3 {
+    font-size: 26px;
   }
+
+  p {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 260px;
+  }
+
   &:hover {
     footer {
       transition: 200ms;
       background: ${darken(0.04, 'white')};
+    }
+  }
+`;
+
+export const Track = styled.div`
+  top: 0;
+  right: 0;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  border-left: 4px solid white;
+
+  background: ${(props) => props.color};
+
+  span {
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > h2 {
+      background: white;
+      padding: 4px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2px 0;
     }
   }
 `;

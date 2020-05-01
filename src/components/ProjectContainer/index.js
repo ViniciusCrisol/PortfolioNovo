@@ -1,31 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Item } from './styles';
+import { Item, Track } from './styles';
 
 export default function ProjectContainer({
   Title,
   Description,
   Icon1,
   Icon2,
-  Image,
   LinkDirection,
   bgColor,
 }) {
   return (
-    <Item color={bgColor} to={LinkDirection}>
-      <img src={Image} alt="amor" />
-
-      <footer>
-        <div>
-          <h3>{Title}</h3>
-          <span>
-            <h2>{Icon1}</h2>
-            <h2>{Icon2}</h2>
-          </span>
-        </div>
-        <p>{Description}</p>
-      </footer>
+    <Item to={LinkDirection}>
+      <Track color={bgColor}>
+        <span>
+          <h2>{Icon1}</h2>
+          {Icon2 ? <h2>{Icon2}</h2> : <div />}
+        </span>
+      </Track>
+      <div>
+        <h3>{Title}</h3>
+      </div>
+      <p>{Description}</p>
     </Item>
   );
 }
@@ -37,5 +34,4 @@ ProjectContainer.propTypes = {
   Icon2: PropTypes.element.isRequired,
   LinkDirection: PropTypes.element.isRequired,
   bgColor: PropTypes.element.isRequired,
-  Image: PropTypes.element.isRequired,
 };
