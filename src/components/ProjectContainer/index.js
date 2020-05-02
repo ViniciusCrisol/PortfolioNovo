@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Item, Track } from './styles';
+import { Item, Track, ContainerItem } from './styles';
 
 export default function ProjectContainer({
   Title,
@@ -12,17 +12,19 @@ export default function ProjectContainer({
   bgColor,
 }) {
   return (
-    <Item to={LinkDirection}>
+    <Item color={bgColor} to={LinkDirection}>
       <Track color={bgColor}>
         <span>
           <h2>{Icon1}</h2>
           {Icon2 ? <h2>{Icon2}</h2> : <div />}
         </span>
       </Track>
-      <div>
-        <h3>{Title}</h3>
-      </div>
-      <p>{Description}</p>
+      <ContainerItem>
+        <div>
+          <h3>{Title}</h3>
+        </div>
+        <p>{Description}</p>
+      </ContainerItem>
     </Item>
   );
 }
