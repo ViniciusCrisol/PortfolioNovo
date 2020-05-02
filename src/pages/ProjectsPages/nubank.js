@@ -14,7 +14,7 @@ export default function nubank() {
     <>
       <Pages
         ProjectName="Clone APP Nubank"
-        ProjectDescription="O projeto foi desenvolvido com o objetivo de estudar animações em interface mobile nativa."
+        ProjectDescription="O projeto foi desenvolvido com o objetivo de estudar animações em interface mobile nativa. Criado utilizando React Native, ao seu final o resultado foi muito satisfatório, levando em conta que a meta de clonar a interface do Nubank foi atingida com sucesso."
         disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/CloneInterfaceNubankMobile"
       />

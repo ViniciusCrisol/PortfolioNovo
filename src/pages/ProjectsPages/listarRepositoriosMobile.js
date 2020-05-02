@@ -14,7 +14,7 @@ export default function listarGitMobile() {
     <>
       <Pages
         ProjectName="Respositórios com estrela"
-        ProjectDescription="O aplicativo foi desenvolvido durante o módulo 06 do curso GoStack da RocketSeat, nele o usuário adiciona perfis do github e visualisa os repositórios marcados com estrela."
+        ProjectDescription="O aplicativo foi desenvolvido durante o módulo 06 do curso GoStack da RocketSeat, nele o usuário adiciona perfis do github e visualisa os repositórios marcados com estrela. Para seu desenvolvimento foi utilizado a API do Github para trazer os dados. E sua estrutura foi construida em ReactNative."
         disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/ListarRepositoriosMobile"
       />

@@ -14,8 +14,8 @@ export default function listarGit() {
     <>
       <Pages
         ProjectName="Repositórios do GitHub"
-        ProjectDescription="A aplicação busca repositórios do github conforme o nome inserido e lista as buscas. Possibilitando que o usuário acesse o repositório e tenha mais informações."
-        ProjectTechs="O site foi desenvolvido em react e conta com a API do github para pesquisa de repositórios."
+        ProjectDescription="A aplicação busca repositórios do github conforme o nome inserido e lista as buscas. Possibilitando que o usuário acesse o repositório e tenha mais informações.O site foi desenvolvido em ReactJs e conta com a API do github para pesquisa de repositórios."
+        disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/ListarRepositorios"
       />
       <ImgsProj>

@@ -17,7 +17,7 @@ export default function spotify() {
     <>
       <Pages
         ProjectName="Repositórios do GitHub"
-        ProjectDescription="Clone da interface do SpotiFy 100% resposiva, projeto desenvolvido para estudar ReactJS."
+        ProjectDescription="Clone da interface do SpotiFy 100% resposiva, projeto desenvolvido para estudar ReactJS. Ao seu final o resultado foi muirto satisfatório levando em conta que a meta de clonar a interface do Spotify foi concluida com sucesso."
         disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/CloneSpotfy"
       />
