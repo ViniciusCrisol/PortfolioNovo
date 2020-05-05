@@ -16,11 +16,30 @@ export const Item = styled(Link)`
     rgba(43, 87, 117, 1) 0%,
     rgba(78, 67, 118, 1) 100%
   );
+  transition: 280ms;
+  overflow: hidden;
 
-  &:hover {
-    transition: 280ms;
-    border-bottom: 8px solid #a3a3a3;
-    box-shadow: none;
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 12px;
+    background: ${(props) => props.color};
+  }
+
+  @media (hover: hover) {
+    footer {
+      transform: translateX(-100%);
+      opacity: 1;
+      transition: 300ms;
+    }
+    &:hover footer {
+      transform: translateX(0%);
+      opacity: 1;
+    }
   }
 `;
 
@@ -40,7 +59,7 @@ export const Track = styled.div`
 
   span {
     margin: 0 auto;
-    z-index: 2;
+    z-index: 40;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -24,6 +24,9 @@ export default function ProjectContainer({
           <h3>{Title}</h3>
         </div>
         <p>{Description}</p>
+        <footer>
+          <h2>Acessar página do projeto</h2>
+        </footer>
       </ContainerItem>
     </Item>
   );
