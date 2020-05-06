@@ -36,6 +36,8 @@ export default function aircnc() {
         <ImagesProjectCel Image={Img5} />
         <ImagesProjectCel Image={Img6} />
         <ImagesProjectCel Image={Img7} />
+      </ImagsProjCell>
+      <ImagsProjCell>
         <ImagesProjectCel Image={Img8} />
         <ImagesProjectCel Image={Img9} />
       </ImagsProjCell>

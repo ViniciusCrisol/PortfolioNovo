@@ -25,6 +25,8 @@ export default function picpay() {
         <ImagesProjectCel Image={Img1} />
         <ImagesProjectCel Image={Img2} />
         <ImagesProjectCel Image={Img3} />
+      </ImagsProjCell>
+      <ImagsProjCell>
         <ImagesProjectCel Image={Img4} />
         <ImagesProjectCel Image={Img5} />
       </ImagsProjCell>
