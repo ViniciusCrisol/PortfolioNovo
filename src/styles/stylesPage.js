@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 
 export const ImgsProj = styled.div`
+  margin: 40px 0;
   display: flex;
-  max-width: 100%;
-  margin-top: 42px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 `;
 
 export const ImagsProjCell = styled.div`
-  display: flex;
-  margin: 0 auto;
   width: 80%;
+  margin: 40px auto;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 `;
