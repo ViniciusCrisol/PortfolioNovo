@@ -26,7 +26,7 @@ export default function ProjectContainer({
         <p>{Description}</p>
         <footer>
           <h2>Acessar página do projeto</h2>
-          <p>Acesse a página e confira os detalhes completos do projeto</p>
+          <p>Acesse a página e confira os detalhes completos do projeto.</p>
         </footer>
       </ContainerItem>
     </Item>
