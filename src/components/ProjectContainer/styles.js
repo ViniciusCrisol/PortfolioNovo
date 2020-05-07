@@ -7,23 +7,24 @@ export const Item = styled(Link)`
   width: 90%;
   height: 120px;
   margin: 8px 6px;
-  padding: 12px;
-  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.35);
+  padding: 16px 12px;
   color: white;
   text-decoration: none;
+  border-radius: 12px;
   background: linear-gradient(
     90deg,
     rgba(43, 87, 117, 1) 0%,
     rgba(78, 67, 118, 1) 100%
   );
-  transition: 280ms;
+  transition: 200ms;
   overflow: hidden;
+  box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.5);
 
   footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: block;
     padding: 12px;
@@ -67,7 +68,7 @@ export const Track = styled.div`
 
     > h2 {
       background: white;
-      padding: 4px;
+      padding: 6px;
       border-radius: 50%;
       display: flex;
       align-items: center;
