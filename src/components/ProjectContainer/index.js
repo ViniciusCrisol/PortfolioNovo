@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { isMobile } from 'react-device-detect';
 
 import { Item, Track, ContainerItem } from './styles';
 
@@ -24,10 +25,14 @@ export default function ProjectContainer({
           <h3>{Title}</h3>
         </div>
         <p>{Description}</p>
-        <footer>
-          <h2>Acessar página do projeto</h2>
-          <p>Acesse a página e todos os detalhes.</p>
-        </footer>
+        {isMobile ? (
+          <section />
+        ) : (
+          <footer>
+            <h2>Acessar página do projeto</h2>
+            <p>Acesse a página e todos os detalhes.</p>
+          </footer>
+        )}
       </ContainerItem>
     </Item>
   );
