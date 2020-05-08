@@ -5,7 +5,8 @@ export const Item = styled(Link)`
   position: relative;
   max-width: 380px;
   width: 90%;
-  height: 120px;
+  min-height: 120px;
+  height: auto;
   margin: 8px 6px;
   padding: 16px 12px;
   color: white;
@@ -19,6 +20,14 @@ export const Item = styled(Link)`
   transition: 200ms;
   overflow: hidden;
   box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.5);
+
+  h2 {
+    line-height: 1;
+  }
+
+  p {
+    margin-top: 4px;
+  }
 
   footer {
     position: absolute;
