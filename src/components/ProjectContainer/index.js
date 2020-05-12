@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { isMobile } from 'react-device-detect';
 
-import { Item, Track, ContainerItem } from './styles';
+import { Item, ContainerItem, Stripe, Pin } from './styles';
 
 export default function ProjectContainer({
   Title,
@@ -14,25 +13,17 @@ export default function ProjectContainer({
 }) {
   return (
     <Item color={bgColor} to={LinkDirection}>
-      <Track color={bgColor}>
-        <span>
-          <h2>{Icon1}</h2>
-          {Icon2 ? <h2>{Icon2}</h2> : <div />}
-        </span>
-      </Track>
+      <Stripe color={bgColor} />
+      <section />
+      <span>
+        <h2>{Icon1}</h2>
+        {Icon2 ? <h2>{Icon2}</h2> : <div />}
+      </span>
       <ContainerItem>
         <div>
           <h3>{Title}</h3>
         </div>
         <p>{Description}</p>
-        {isMobile ? (
-          <section />
-        ) : (
-          <footer>
-            <h2>Acessar página do projeto</h2>
-            <p>Acesse a página e todos os detalhes.</p>
-          </footer>
-        )}
       </ContainerItem>
     </Item>
   );

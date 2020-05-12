@@ -3,102 +3,89 @@ import { Link } from 'react-router-dom';
 
 export const Item = styled(Link)`
   position: relative;
-  max-width: 380px;
+
+  max-width: 300px;
   width: 90%;
-  min-height: 120px;
+  min-height: 240px;
   height: auto;
+
   margin: 8px 6px;
-  padding: 16px 12px;
-  color: white;
-  text-decoration: none;
+  padding: 32px;
   border-radius: 12px;
-  background: linear-gradient(
-    90deg,
-    rgba(43, 87, 117, 1) 0%,
-    rgba(78, 67, 118, 1) 100%
-  );
-  transition: 200ms;
-  overflow: hidden;
+  background-color: white;
   box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 
-  h2 {
-    line-height: 1;
-  }
+  text-decoration: none;
 
-  p {
-    margin-top: 4px;
-  }
-
-  footer {
+  > section {
+    background-color: ${(props) => props.color};
+    width: 30px;
+    height: 30px;
     position: absolute;
+    transform: scale(1);
+    transition: 280ms;
+
+    right: 0;
     bottom: 0;
-    left: 0;
-    width: 80%;
-    height: 100%;
-    display: block;
-    padding: 12px;
-    background: ${(props) => props.color};
+    border-top-left-radius: 50%;
   }
-
-  @media (hover: hover) {
-    footer {
-      transform: translateX(-100%);
-      opacity: 1;
-      transition: 300ms;
-    }
-    &:hover footer {
-      transform: translateX(0%);
-      opacity: 1;
-    }
-  }
-`;
-
-export const Track = styled.div`
-  top: 0;
-  right: 0;
-  width: 20%;
-  height: 100%;
-  position: absolute;
-  border-left: 4px solid white;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: ${(props) => props.color};
 
   span {
-    margin: 0 auto;
-    z-index: 40;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
 
-    > h2 {
-      background: white;
-      padding: 6px;
+    h2 {
+      line-height: 1;
+      width: 44px;
+      height: 44px;
       border-radius: 50%;
+
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 2px 0;
+
+      & + h2 {
+        margin-left: 4px;
+      }
+    }
+  }
+
+  &:hover {
+    section {
+      transform: scale(19);
+      opacity: 0.2;
+      border-top-left-radius: 0;
     }
   }
 `;
 
 export const ContainerItem = styled.div`
-  width: 80%;
+  width: 100%;
   height: 100%;
 
   h3 {
     font-size: 26px;
-    line-height: 26px;
+    margin: 12px 0 8px;
+    line-height: 1;
+    color: #2e3159;
   }
 
   p {
-    font-size: 16px;
-    line-height: 18px;
-    max-width: 260px;
+    margin-top: auto;
+    font-size: 15px;
+    line-height: 1;
+    color: #666;
   }
+`;
+
+export const Stripe = styled.div`
+  z-index: 2;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: ${(props) => props.color};
+  width: 6px;
+  height: 100%;
 `;
