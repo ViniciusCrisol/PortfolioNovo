@@ -23,6 +23,13 @@ export default function Projects() {
           Title="Be The Hero"
           Description="Projeto desenvolvido durante a semana OmniStack 11."
         />
+        <ProjectContainer
+          LinkDirection="projetos/swimsuites"
+          Icon1={reactIcon}
+          bgColor="#FFBA53"
+          Title="SWIMSUITES"
+          Description="Projeto desenvolvido para estudar ReactJs."
+        />
 
         <ProjectContainer
           LinkDirection="projetos/churros"
