@@ -16,6 +16,7 @@ export default function skylab() {
       <Pages
         ProjectName="Clone SKYLAB"
         ProjectDescription="Clone do site SkyLab da RocketSeat. Desenvolvido em React, com o objetivo de estudar a criação de sites responsivos com o framework. O reusltado final foi muito bom, ao decorrer do projeto aprendi deversas coisas, sendo a principal delas uma melhor compreenção de como trabalhar com layouts responsivos."
+        disableDesc
         RepositoryLink="https://github.com/ViniciusCrisol/Clone-SkyLab"
       />
       <ImgsProj>

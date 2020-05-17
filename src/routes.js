@@ -18,6 +18,7 @@ import listarGitM from './pages/ProjectsPages/listarRepositoriosMobile';
 import spotify from './pages/ProjectsPages/spotify';
 import churros from './pages/ProjectsPages/churros';
 import picpay from './pages/ProjectsPages/picpay';
+import swimsuites from './pages/ProjectsPages/swimsuites';
 
 export default function Routes() {
   return (
@@ -38,6 +39,7 @@ export default function Routes() {
       <Route path="/projetos/spotify" exact component={spotify} />
       <Route path="/projetos/churros" exact component={churros} />
       <Route path="/projetos/picpay" exact component={picpay} />
+      <Route path="/projetos/swimsuites" exact component={swimsuites} />
 
       <Route path="/" component={pageNotFound} />
     </Switch>
