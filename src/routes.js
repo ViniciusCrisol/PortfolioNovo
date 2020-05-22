@@ -19,6 +19,8 @@ import spotify from './pages/ProjectsPages/spotify';
 import churros from './pages/ProjectsPages/churros';
 import picpay from './pages/ProjectsPages/picpay';
 import swimsuites from './pages/ProjectsPages/swimsuites';
+import trello from './pages/ProjectsPages/trello';
+import drinks from './pages/ProjectsPages/drinks';
 
 export default function Routes() {
   return (
@@ -40,6 +42,8 @@ export default function Routes() {
       <Route path="/projetos/churros" exact component={churros} />
       <Route path="/projetos/picpay" exact component={picpay} />
       <Route path="/projetos/swimsuites" exact component={swimsuites} />
+      <Route path="/projetos/trello" exact component={trello} />
+      <Route path="/projetos/drinks" exact component={drinks} />
 
       <Route path="/" component={pageNotFound} />
     </Switch>
