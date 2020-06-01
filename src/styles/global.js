@@ -13,7 +13,8 @@ background: white;
 -webkit-font-smoothing: antialiased !important;
 }
 
-body, input, button {
+body, input, button, a {
+  font : 14px Nunito, sans-serif;
   color: #2e3159;
 }
 

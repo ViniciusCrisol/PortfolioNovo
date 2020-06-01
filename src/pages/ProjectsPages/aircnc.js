@@ -21,25 +21,25 @@ export default function aircnc() {
   return (
     <>
       <Pages
-        ProjectName="AIRCNC"
-        ProjectDescription="O projeto foi desenvolvido durante a semana OmniStack 09. Para sua criação foram utilizados React, React-Native e NodeJs. A aplicação consiste em uma plataforma que facilita realizar a reserva de Spots de empresas para desenvolvedores."
-        ProjectTechs="Para a contrução do banco dados da aplicação foi utilizando MongoDB, já que o projeto não possui muitas relações entre tabelas e exige um banco extremamente performático. A funcionalidade que mais se destaca do projeto é a confirmação de reserva que é feita em tempo real, para isso foi utilizado o Socket.io, já que ele facilita trabalhar com WebSockets, possibilitando que ao realizar o pedido de reserva, instantaneamente a solicitação apareça para a empresa."
-        RepositoryLink="https://github.com/ViniciusCrisol/AirCnC"
+        projectName="AIRCNC"
+        projectDescription="O projeto foi desenvolvido durante a semana OmniStack 09. Para sua criação foram utilizados React, React-Native e NodeJs. A aplicação consiste em uma plataforma que facilita realizar a reserva de Spots de empresas para desenvolvedores."
+        projectTechs="Para a contrução do banco dados da aplicação foi utilizando MongoDB, já que o projeto não possui muitas relações entre tabelas e exige um banco extremamente performático. A funcionalidade que mais se destaca do projeto é a confirmação de reserva que é feita em tempo real, para isso foi utilizado o Socket.io, já que ele facilita trabalhar com WebSockets, possibilitando que ao realizar o pedido de reserva, instantaneamente a solicitação apareça para a empresa."
+        repositoryLink="https://github.com/ViniciusCrisol/AirCnC"
       />
       <ImgsProj>
-        <ImagesProject Image={Img1} />
-        <ImagesProject Image={Img2} />
-        <ImagesProject Image={Img3} />
-        <ImagesProject Image={Img4} />
+        <ImagesProject image={Img1} />
+        <ImagesProject image={Img2} />
+        <ImagesProject image={Img3} />
+        <ImagesProject image={Img4} />
       </ImgsProj>
       <ImagsProjCell>
-        <ImagesProjectCel Image={Img5} />
-        <ImagesProjectCel Image={Img6} />
-        <ImagesProjectCel Image={Img7} />
+        <ImagesProjectCel image={Img5} />
+        <ImagesProjectCel image={Img6} />
+        <ImagesProjectCel image={Img7} />
       </ImagsProjCell>
       <ImagsProjCell>
-        <ImagesProjectCel Image={Img8} />
-        <ImagesProjectCel Image={Img9} />
+        <ImagesProjectCel image={Img8} />
+        <ImagesProjectCel image={Img9} />
       </ImagsProjCell>
       <Footer />
     </>

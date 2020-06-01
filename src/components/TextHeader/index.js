@@ -3,16 +3,22 @@ import PropTypes from 'prop-types';
 
 import { Container } from './styles';
 
-export default function TextHeader({ NameText, FunctionText }) {
+export default function TextHeader({ nameText, functionText, link }) {
   return (
     <Container>
-      <h1>{NameText}</h1>
-      <h3>{FunctionText}</h3>
+      <h1>{nameText}</h1>
+      <h3>{functionText}</h3>
+      {link && (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      )}
     </Container>
   );
 }
 
 TextHeader.propTypes = {
-  NameText: PropTypes.element.isRequired,
-  FunctionText: PropTypes.element.isRequired,
+  nameText: PropTypes.element.isRequired,
+  functionText: PropTypes.element.isRequired,
+  link: PropTypes.element.isRequired,
 };

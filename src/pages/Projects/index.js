@@ -13,130 +13,60 @@ export default function Projects() {
 
   return (
     <>
-      <TextHeader FunctionText="Todos projetos possuem um link para seus respectivos repositórios." />
+      <TextHeader
+        functionText="Esses são meus projetos favoritos, acesse meu GitHub e confira todos que possuo ! "
+        link="https://github.com/ViniciusCrisol"
+      />
       <Container>
         <ProjectContainer
-          LinkDirection="projetos/beTheHero"
-          Icon1={reactIcon}
-          Icon2={nodeIcon}
-          bgColor="#A11D3C"
-          Title="Be The Hero"
-          Description="Projeto desenvolvido durante a semana OmniStack 11."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/swimsuites"
-          Icon1={reactIcon}
-          bgColor="#FFBA53"
-          Title="SWIMSUITES"
-          Description="Projeto desenvolvido para estudar ReactJs."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/drinks"
-          Icon1={reactIcon}
+          linkDirection="projetos/aircnc"
+          icon1={reactIcon}
+          icon2={nodeIcon}
           bgColor="#F05A5B"
-          Title="Drinks"
-          Description="Projeto desenvolvido para estudar ReactJs."
+          title="AIRCNC"
+          description="Projeto desenvolvido durante a semana OmniStack 09."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/trello"
-          Icon1={reactIcon}
-          Icon2={nodeIcon}
+          linkDirection="projetos/pipefine"
+          icon1={reactIcon}
           bgColor="#3CBCAC"
-          Title="Notas"
-          Description="Projeto desenvolvido para estudar ReactJs e Node."
+          title="Pipefine"
+          description="Projeto desenvolvido para estudar ReactJs e Drag n' Drop."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/churros"
-          Icon1={htmlIcon}
-          bgColor="#8C273A"
-          Title="Site Churros"
-          Description="Projeto desenvolvido para trabalho de faculdade."
+          linkDirection="projetos/beTheHero"
+          icon1={reactIcon}
+          icon2={nodeIcon}
+          bgColor="#A11D3C"
+          title="Be The Hero"
+          description="Projeto desenvolvido durante a semana OmniStack 11."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/picpay"
-          Icon1={reactIcon}
-          bgColor="#2ae871"
-          Title="Clone interface PicPay"
-          Description="Projeto desenvolvido para estudar React-Native."
+          linkDirection="projetos/ideas"
+          icon1={htmlIcon}
+          icon2={nodeIcon}
+          bgColor="#D1774F"
+          title="Ideas"
+          description="Projeto desenvolvido para estudar ReactJs e Node."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/aircnc"
-          Icon1={reactIcon}
-          Icon2={nodeIcon}
-          bgColor="#F05A5B"
-          Title="AIRCNC"
-          Description="Projeto desenvolvido durante a semana OmniStack 09."
+          linkDirection="projetos/drinks"
+          icon1={reactIcon}
+          bgColor="#E87F8A"
+          title="Drinks"
+          description="Projeto desenvolvido para estudar ReactJs."
         />
 
         <ProjectContainer
-          LinkDirection="projetos/nubank"
-          Icon1={reactIcon}
-          bgColor="#c248f0"
-          Title="Clone interface NUBANK"
-          Description="Projeto desenvolvido para estudar React-Native."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/airbnb"
-          Icon1={htmlIcon}
-          bgColor="#F05A5B"
-          Title="Clone interface Airbnb"
-          Description="Projeto desenvolvido para estudar Html."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/spotify"
-          Icon1={reactIcon}
-          bgColor="#2ae871"
-          Title="Clone interface Spotify"
-          Description="Projeto desenvolvido para estudar ReactJs."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/productHunt"
-          Icon1={reactIcon}
-          Icon2={nodeIcon}
-          bgColor="#FF674C"
-          Title="Clone Product Hunt"
-          Description="Projeto desenvolvido durante o curso básico RocketSeat."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/skylab"
-          Icon1={reactIcon}
-          bgColor="#6C4FBB"
-          Title="Clone interface SKYLAB"
-          Description="Projeto desenvolvido para estudar ReactJs."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/academia"
-          Icon1={htmlIcon}
-          bgColor="#6C4FBB"
-          Title="Controle Academia"
-          Description="Projeto desenvolvido durante o curso launchBase."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/listarGit"
-          Icon1={reactIcon}
-          bgColor="#6C4FBB"
-          Title="Listar Repositórios"
-          Description="Projeto desenvolvido durante o curso GoStack."
-        />
-
-        <ProjectContainer
-          LinkDirection="projetos/listarGitMobile"
-          Icon1={reactIcon}
-          bgColor="#FF6447"
-          Title="Repositórios Favoritos"
-          Description="Projeto desenvolvido durante o curso GoStack."
+          linkDirection="projetos/swimsuites"
+          icon1={reactIcon}
+          bgColor="#FFBA53"
+          title="SWIMSUITES"
+          description="Projeto desenvolvido para estudar ReactJs."
         />
       </Container>
     </>

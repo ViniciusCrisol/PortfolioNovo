@@ -10,8 +10,8 @@ export default function Main() {
   return (
     <>
       <TextHeader
-        NameText="Vinícius Poloni Crisol"
-        FunctionText="Programador"
+        nameText="Vinícius Poloni Crisol"
+        functionText="Programador"
       />
       <Container>
         <h2>Sobre:</h2>

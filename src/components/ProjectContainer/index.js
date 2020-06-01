@@ -1,39 +1,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Item, ContainerItem, Stripe, Pin } from './styles';
+import { Item, ContainerItem, Stripe } from './styles';
 
 export default function ProjectContainer({
-  Title,
-  Description,
-  Icon1,
-  Icon2,
-  LinkDirection,
+  title,
+  description,
+  icon1,
+  icon2,
+  linkDirection,
   bgColor,
 }) {
   return (
-    <Item color={bgColor} to={LinkDirection}>
+    <Item color={bgColor} to={linkDirection}>
       <Stripe color={bgColor} />
       <section />
       <span>
-        <h2>{Icon1}</h2>
-        {Icon2 ? <h2>{Icon2}</h2> : <div />}
+        <h2>{icon1}</h2>
+        {icon2 && <h2>{icon2}</h2>}
       </span>
       <ContainerItem>
         <div>
-          <h3>{Title}</h3>
+          <h3>{title}</h3>
         </div>
-        <p>{Description}</p>
+        <p>{description}</p>
       </ContainerItem>
     </Item>
   );
 }
 
 ProjectContainer.propTypes = {
-  Title: PropTypes.element.isRequired,
-  Description: PropTypes.element.isRequired,
-  Icon1: PropTypes.element.isRequired,
-  Icon2: PropTypes.element.isRequired,
-  LinkDirection: PropTypes.element.isRequired,
+  title: PropTypes.element.isRequired,
+  description: PropTypes.element.isRequired,
+  icon1: PropTypes.element.isRequired,
+  icon2: PropTypes.element.isRequired,
+  linkDirection: PropTypes.element.isRequired,
   bgColor: PropTypes.element.isRequired,
 };

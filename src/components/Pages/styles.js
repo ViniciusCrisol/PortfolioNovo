@@ -8,7 +8,7 @@ export const Container = styled.div`
   text-align: center;
 
   > a {
-    margin: 0 auto;
+    margin: 14px auto 0;
     max-width: 100px;
     text-decoration: none;
     color: #f4f4f4;

@@ -12,13 +12,13 @@ export default function productHunt() {
   return (
     <>
       <Pages
-        ProjectName="Drinks"
-        ProjectDescription="Projeto desenvolvido com o obejtivo de estudar ReactJs. Para seu desenvolvimento foi utilizado a API thecocktaildb em conjunto do ReactJs."
+        projectName="Drinks"
+        projectDescription="Projeto desenvolvido com o obejtivo de estudar ReactJs. Para seu desenvolvimento foi utilizado a API thecocktaildb em conjunto do ReactJs. O resultado final ficou muito satisfatório, coloco esse projeto aqui pela grande quantidade de conhecimento que ele me trouxe."
         disableDesc
-        RepositoryLink="https://github.com/ViniciusCrisol/drinks"
+        repositoryLink="https://github.com/ViniciusCrisol/drinks"
       />
       <ImgsProj>
-        <ImagesProject Image={Img1} />
+        <ImagesProject image={Img1} />
       </ImgsProj>
       <Footer />
     </>

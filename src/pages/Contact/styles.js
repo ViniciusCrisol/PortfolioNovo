@@ -10,9 +10,13 @@ export const Container = styled.div`
     margin-bottom: 16px;
   }
 
-  p {
-    font-size: 20px;
+  p,
+  a {
     margin: 8px 0;
+
+    font-size: 20px;
+    text-decoration: none;
+
     display: flex;
     align-items: center;
     justify-content: center;

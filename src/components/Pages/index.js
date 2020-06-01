@@ -4,24 +4,24 @@ import PropTypes from 'prop-types';
 import { Container, DescProj, DescProjText } from './styles';
 
 export default function Pages({
-  ProjectName,
-  ProjectDescription,
-  ProjectTechs,
-  RepositoryLink,
+  projectName,
+  projectDescription,
+  projectTechs,
+  repositoryLink,
   disableDesc,
 }) {
   return (
     <Container>
-      <h1>{ProjectName}</h1>
-      <a href={RepositoryLink} target="_blank" rel="noopener noreferrer">
+      <h1>{projectName}</h1>
+      <a href={repositoryLink} target="_blank" rel="noopener noreferrer">
         <h3>repositório</h3>
       </a>
       <DescProj>
         <DescProjText>
           <h1>Descrição do projeto</h1>
-          <p>{ProjectDescription}</p>
+          <p>{projectDescription}</p>
           <h1>{disableDesc ? '' : 'Descrição técnica'}</h1>
-          <p>{ProjectTechs}</p>
+          <p>{projectTechs}</p>
         </DescProjText>
       </DescProj>
     </Container>
@@ -29,9 +29,9 @@ export default function Pages({
 }
 
 Pages.propTypes = {
-  ProjectName: PropTypes.element.isRequired,
-  ProjectDescription: PropTypes.element.isRequired,
-  ProjectTechs: PropTypes.element.isRequired,
-  RepositoryLink: PropTypes.element.isRequired,
+  projectName: PropTypes.element.isRequired,
+  projectDescription: PropTypes.element.isRequired,
+  projectTechs: PropTypes.element.isRequired,
+  repositoryLink: PropTypes.element.isRequired,
   disableDesc: PropTypes.element.isRequired,
 };

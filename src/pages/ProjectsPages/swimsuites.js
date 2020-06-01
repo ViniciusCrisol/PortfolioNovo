@@ -18,19 +18,19 @@ export default function picpay() {
   return (
     <>
       <Pages
-        ProjectName="SWIMSUITES"
-        ProjectDescription="Aplicação desenvolvida com o objetivo de estudar interfaces web com ReactJs, feito com base no projeto swimsuites. Para sua realização fora utilizados além do framework, principalmenet o Cheeseburger Menu que facilita a criação de menus laterais e o Styled Components."
+        projectName="SWIMSUITES"
+        projectDescription="Aplicação desenvolvida com o objetivo de estudar interfaces web com ReactJs, feito com base no projeto swimsuites. Para sua realização fora utilizados além do framework, principalmenet o Cheeseburger Menu que facilita a criação de menus laterais e o Styled Components."
         disableDesc
-        RepositoryLink="https://github.com/ViniciusCrisol/SwimSuites"
+        repositoryLink="https://github.com/ViniciusCrisol/SwimSuites"
       />
       <ImgsProj>
-        <ImagesProject Image={Img1} />
-        <ImagesProject Image={Img3} />
-        <ImagesProject Image={Img2} />
-        <ImagesProject Image={Img4} />
+        <ImagesProject image={Img1} />
+        <ImagesProject image={Img3} />
+        <ImagesProject image={Img2} />
+        <ImagesProject image={Img4} />
       </ImgsProj>
       <ImagsProjCell>
-        <ImagesProjectCel Image={Img5} />
+        <ImagesProjectCel image={Img5} />
       </ImagsProjCell>
       <Footer />
     </>

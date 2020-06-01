@@ -6,11 +6,11 @@ export const Item = styled(Link)`
 
   max-width: 300px;
   width: 90%;
-  min-height: 240px;
+  min-height: 210px;
   height: auto;
 
   margin: 8px 6px;
-  padding: 32px;
+  padding: 16px;
   border-radius: 12px;
   background-color: white;
   box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.5);
@@ -24,7 +24,7 @@ export const Item = styled(Link)`
     height: 30px;
     position: absolute;
     transform: scale(1);
-    transition: 280ms;
+    transition: 220ms ease;
 
     right: 0;
     bottom: 0;
